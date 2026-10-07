@@ -208,3 +208,55 @@ h1,h2,h3,h4,.brand,strong,.btn,.nav-links,.nav-cta,.section-kicker,.eyebrow,.exp
   .contact-actions .btn { width: 100%; text-align: center; }
   .hero-meta { gap: .75rem; }
 }
+
+
+/* Software services contrast */
+#services .section-kicker {
+  color: #18202c;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+#services .section-kicker::before {
+  content: '';
+  width: 28px;
+  height: 3px;
+  border-radius: 99px;
+  background: var(--accent-2);
+}
+#services .section-heading h2 {
+  color: #080b12;
+}
+#services .section-heading h2 span {
+  color: #5b8f19;
+}
+#services .section-heading p {
+  color: #505866;
+}
+#services .skill-card {
+  background: #111720;
+  border-color: rgba(8,11,18,.08);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+#services .skill-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--accent);
+}
+#services .skill-card:hover {
+  border-color: rgba(91,143,25,.5);
+  box-shadow: 0 18px 40px rgba(8,11,18,.14);
+}
+#services .skill-card h3 {
+  color: #fff;
+}
+#services .skill-card p {
+  color: #aeb6c3;
+}
