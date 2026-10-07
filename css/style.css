@@ -260,3 +260,25 @@ h1,h2,h3,h4,.brand,strong,.btn,.nav-links,.nav-cta,.section-kicker,.eyebrow,.exp
 #services .skill-card p {
   color: #aeb6c3;
 }
+
+
+/* Global light-section contrast */
+.section-light .section-kicker,
+.section-light .section-kicker span { color: #18202c; }
+.section-light .section-heading h2,
+.section-light .about-grid h2 { color: #080b12; }
+.section-light .section-heading h2 span,
+.section-light .about-grid h2 span { color: #5b8f19; }
+.section-light .section-heading p,
+.section-light .about-copy,
+.section-light .about-copy .lead { color: #4f5765; }
+.section-light .about-links a { color: #18202c; border-color: #18202c; }
+.section-light .about-links a:hover { color: #4f8612; border-color: #4f8612; }
+.section-light .stats strong { color: #080b12; }
+.section-light .stats span { color: #5b6370; }
+.section-light .tech-cloud span { color: #3f4754; background: #dedcd4; }
+.section-light .skill-card h3 { color: #080b12; }
+.section-light .skill-card p { color: #555e6c; }
+/* Keep intentionally dark service cards readable */
+#services .skill-card h3 { color: #fff; }
+#services .skill-card p { color: #aeb6c3; }
