@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sabith-prfm.github.io/personal-static-page/sitemap.xml
